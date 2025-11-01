@@ -33,6 +33,15 @@ class Categoria:
     def get_total_produtos(self) -> int:
         return len(self.produtos)
     
+    # Impressão das subcategorias
+    def imprimir_subcategorias(self, prefixo: str = "") -> None:
+        for i, subcat in enumerate(self.subcategorias):
+            # Define símbolo de continuação
+            connector = "└── " if i == len(self.subcategorias) - 1 else "├── "
+            print(prefixo + connector + f"{subcat.nome} ({len(subcat.produtos)} produtos)")
+            # Chama recursivamente para sub-subcategorias
+            subcat.imprimir_subcategorias(prefixo + ("    " if i == len(self.subcategorias) - 1 else "│   "))
+    
     # Métodos de representação
     
     # Representação em string
