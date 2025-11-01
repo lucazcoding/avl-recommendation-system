@@ -261,11 +261,15 @@ class ArvoreAVL:
         self._listar_recursivo(self.raiz, categorias)
         return categorias
     
-    # Imprime árvore visualmente
+    # Imprime árvore visualmente + subcategorias
     def imprimir_arvore(self) -> None:
-        print("Árvore AVL")
+        print("=== Árvore AVL ===")
         if self.raiz:
             self._imprimir_recursivo(self.raiz, "", True)
+            print("\n=== Subcategorias ===")
+            for cat in self.listar_todas():
+                print(f"{cat.nome} ({len(cat.produtos)} produtos)")
+                cat.imprimir_subcategorias()
         else:
             print("(vazia)")
         print(f"\nTotal: {self.tamanho} categorias")
