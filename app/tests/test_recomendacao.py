@@ -42,3 +42,7 @@ for i in lista_autocomplecao:
 #Teste de recomendação
 busca = input("Digite o nome uma categoria ou subcategoria para ver recomendações de produtos:")
 print(servico_recomendacao.recomendar_produtos(busca))
+#Teste de autocompleção após a adição de outro produto
+arvore.buscar_publico("Pokébolas").adicionar_produto("Master ball")
+servico_recomendacao.reindexar()
+print(servico_recomendacao.sugerir_por_prefixo("Master"))
