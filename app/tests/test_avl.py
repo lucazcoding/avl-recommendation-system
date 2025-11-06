@@ -1,5 +1,9 @@
-from arvore_avl import ArvoreAVL
-from categoria import Categoria
+import sys, os
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
+
+from app.core.arvore_avl import ArvoreAVL
+from app.core.categoria import Categoria
 
 #Inicialização da árvore
 arvore = ArvoreAVL()
