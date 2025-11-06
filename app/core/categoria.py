@@ -2,7 +2,7 @@ from typing import List
 
 
 class Categoria:
-    
+        
     # Inicialização da categoria
     def __init__(self, nome: str, produtos: List[str] = None, peso_popularidade: float = 1.0):
         self.nome = nome

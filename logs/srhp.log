@@ -1,0 +1,150 @@
+2025-11-03 09:17:46 | app.services.recomendacao_service | INFO | Construindo índices de produtos...
+2025-11-03 09:17:46 | app.services.recomendacao_service | INFO | Índices construídos com sucesso: 3 produtos indexados.
+2025-11-03 09:17:46 | app.services.recomendacao_service | INFO | Sugestão 'Fo': 1 resultados em 0.0000s.
+2025-11-03 09:17:46 | app.services.recomendacao_service | INFO | Gerando recomendações para 'Eletrônicos'...
+2025-11-03 09:17:46 | app.services.recomendacao_service | INFO | Buscando categoria 'Eletrônicos'...
+2025-11-03 09:17:47 | app.services.recomendacao_service | INFO | Construindo índices de produtos...
+2025-11-03 09:17:47 | app.services.recomendacao_service | INFO | Índices construídos com sucesso: 3 produtos indexados.
+2025-11-03 09:17:47 | app.services.recomendacao_service | INFO | Sugestão 'Fo': 1 resultados em 0.0000s.
+2025-11-03 09:17:47 | app.services.recomendacao_service | INFO | Gerando recomendações para 'Eletrônicos'...
+2025-11-03 09:17:47 | app.services.recomendacao_service | INFO | Buscando categoria 'Eletrônicos'...
+2025-11-03 09:18:53 | app.services.recomendacao_service | INFO | Construindo índices de produtos...
+2025-11-03 09:18:53 | app.services.recomendacao_service | INFO | Índices construídos com sucesso: 3 produtos indexados.
+2025-11-03 09:18:53 | app.services.recomendacao_service | INFO | Sugestão 'Fo': 1 resultados em 0.0000s.
+2025-11-03 09:18:53 | app.services.recomendacao_service | INFO | Gerando recomendações para 'Eletrônicos'...
+2025-11-03 09:18:53 | app.services.recomendacao_service | INFO | Buscando categoria: Eletrônicos
+2025-11-03 09:18:53 | app.services.recomendacao_service | INFO | Categoria 'Eletrônicos' encontrada em 0.0001s
+2025-11-03 09:18:53 | app.services.recomendacao_service | INFO | Recomendação concluída: 3 produtos em 0.0003s.
+2025-11-03 09:18:55 | app.services.recomendacao_service | INFO | Construindo índices de produtos...
+2025-11-03 09:18:55 | app.services.recomendacao_service | INFO | Índices construídos com sucesso: 3 produtos indexados.
+2025-11-03 09:18:55 | app.services.recomendacao_service | INFO | Sugestão 'Fo': 1 resultados em 0.0000s.
+2025-11-03 09:18:55 | app.services.recomendacao_service | INFO | Gerando recomendações para 'Eletrônicos'...
+2025-11-03 09:18:55 | app.services.recomendacao_service | INFO | Buscando categoria: Eletrônicos
+2025-11-03 09:18:55 | app.services.recomendacao_service | INFO | Categoria 'Eletrônicos' encontrada em 0.0002s
+2025-11-03 09:18:55 | app.services.recomendacao_service | INFO | Recomendação concluída: 3 produtos em 0.0004s.
+2025-11-03 09:20:21 | app.services.recomendacao_service | INFO | Construindo índices de produtos...
+2025-11-03 09:20:21 | app.services.recomendacao_service | INFO | Índices construídos com sucesso: 3 produtos indexados.
+2025-11-03 09:20:21 | app.services.recomendacao_service | INFO | Sugestão 'Fo': 1 resultados em 0.0000s.
+2025-11-03 09:20:21 | app.services.recomendacao_service | INFO | Gerando recomendações para 'Eletrônicos'...
+2025-11-03 09:20:21 | app.services.recomendacao_service | INFO | Buscando categoria: Eletrônicos
+2025-11-03 09:20:21 | app.services.recomendacao_service | INFO | Categoria 'Eletrônicos' encontrada em 0.0002s
+2025-11-03 09:20:21 | app.services.recomendacao_service | INFO | Recomendação concluída: 3 produtos em 0.0003s.
+2025-11-03 09:20:32 | app.services.recomendacao_service | INFO | Construindo índices de produtos...
+2025-11-03 09:20:32 | app.services.recomendacao_service | INFO | Índices construídos com sucesso: 3 produtos indexados.
+2025-11-03 09:20:32 | app.services.recomendacao_service | INFO | Sugestão 'Fo': 1 resultados em 0.0000s.
+2025-11-03 09:20:32 | app.services.recomendacao_service | INFO | Gerando recomendações para 'Eletrônicos'...
+2025-11-03 09:20:32 | app.services.recomendacao_service | INFO | Buscando categoria: Eletrônicos
+2025-11-03 09:20:32 | app.services.recomendacao_service | INFO | Categoria 'Eletrônicos' encontrada em 0.0002s
+2025-11-03 09:20:32 | app.services.recomendacao_service | INFO | Recomendação concluída: 3 produtos em 0.0004s.
+2025-11-03 09:20:34 | app.services.recomendacao_service | INFO | Construindo índices de produtos...
+2025-11-03 09:20:34 | app.services.recomendacao_service | INFO | Índices construídos com sucesso: 3 produtos indexados.
+2025-11-03 09:20:34 | app.services.recomendacao_service | INFO | Sugestão 'Fo': 1 resultados em 0.0000s.
+2025-11-03 09:20:34 | app.services.recomendacao_service | INFO | Gerando recomendações para 'Eletrônicos'...
+2025-11-03 09:20:34 | app.services.recomendacao_service | INFO | Buscando categoria: Eletrônicos
+2025-11-03 09:20:34 | app.services.recomendacao_service | INFO | Categoria 'Eletrônicos' encontrada em 0.0002s
+2025-11-03 09:20:34 | app.services.recomendacao_service | INFO | Recomendação concluída: 3 produtos em 0.0003s.
+2025-11-03 09:21:30 | app.services.recomendacao_service | INFO | Construindo índices de produtos...
+2025-11-03 09:21:30 | app.services.recomendacao_service | INFO | Índices construídos com sucesso: 3 produtos indexados.
+2025-11-03 09:21:30 | app.services.recomendacao_service | INFO | Sugestão 'Fo': 1 resultados em 0.0000s.
+2025-11-03 09:21:30 | app.services.recomendacao_service | INFO | Gerando recomendações para 'Eletrônicos'...
+2025-11-03 09:21:30 | app.services.recomendacao_service | INFO | Buscando categoria: Eletrônicos
+2025-11-03 09:21:30 | app.services.recomendacao_service | INFO | Categoria 'Eletrônicos' encontrada em 0.0002s
+2025-11-03 09:21:30 | app.services.recomendacao_service | INFO | Recomendação concluída: 3 produtos em 0.0003s.
+2025-11-03 09:22:44 | app.services.recomendacao_service | INFO | Construindo índices de produtos...
+2025-11-03 09:22:44 | app.services.recomendacao_service | INFO | Índices construídos com sucesso: 3 produtos indexados.
+2025-11-03 09:22:44 | app.services.recomendacao_service | INFO | Sugestão 'Fo': 1 resultados em 0.0000s.
+2025-11-03 09:22:44 | app.services.recomendacao_service | INFO | Gerando recomendações para 'Eletrônicos'...
+2025-11-03 09:22:44 | app.services.recomendacao_service | INFO | Buscando categoria: Eletrônicos
+2025-11-03 09:22:44 | app.services.recomendacao_service | INFO | Categoria 'Eletrônicos' encontrada em 0.0002s
+2025-11-03 09:22:44 | app.services.recomendacao_service | INFO | Recomendação concluída: 3 produtos em 0.0003s.
+2025-11-03 09:27:47 | app.services.recomendacao_service | INFO | Construindo índices de produtos...
+2025-11-03 09:27:47 | app.services.recomendacao_service | INFO | Índices construídos com sucesso: 3 produtos indexados.
+2025-11-03 09:27:47 | app.services.recomendacao_service | INFO | Sugestão 'Fo': 1 resultados em 0.0000s.
+2025-11-03 09:27:47 | app.services.recomendacao_service | INFO | Gerando recomendações para 'Eletrônicos'...
+2025-11-03 09:27:47 | app.services.recomendacao_service | INFO | Buscando categoria: Eletrônicos
+2025-11-03 09:27:47 | app.services.recomendacao_service | INFO | Categoria 'Eletrônicos' encontrada em 0.0001s
+2025-11-03 09:27:47 | app.services.recomendacao_service | INFO | Recomendação concluída: 3 produtos em 0.0003s.
+2025-11-03 09:33:04 | app.services.recomendacao_service | INFO | Construindo índices de produtos...
+2025-11-03 09:33:04 | app.services.recomendacao_service | INFO | Índices construídos com sucesso: 3 produtos indexados.
+2025-11-03 09:33:04 | app.services.recomendacao_service | INFO | Sugestão 'Fo': 1 resultados em 0.0000s.
+2025-11-03 09:33:04 | TestRecomendacao | INFO | Sugestões para 'Fo': [{'nome': 'Fone JBL', 'categoria': 'Eletrônicos'}]
+2025-11-03 09:33:04 | app.services.recomendacao_service | INFO | Gerando recomendações para 'Eletrônicos'...
+2025-11-03 09:33:04 | app.services.recomendacao_service | INFO | Buscando categoria: Eletrônicos
+2025-11-03 09:33:04 | app.services.recomendacao_service | INFO | Categoria 'Eletrônicos' encontrada em 0.0001s
+2025-11-03 09:33:04 | app.services.recomendacao_service | INFO | Recomendação concluída: 3 produtos em 0.0003s.
+2025-11-03 09:33:04 | TestRecomendacao | INFO | Produtos recomendados para 'Eletrônicos': {'sucesso': True, 'categoria': 'Eletrônicos', 'total_produtos': 3, 'produtos': [{'produto': 'Fone JBL', 'categoria': 'Eletrônicos', 'nivel': 'principal'}, {'produto': 'Notebook Dell', 'categoria': 'Eletrônicos', 'nivel': 'principal'}, {'produto': 'Cabo HDMI', 'categoria': 'Eletrônicos > Acessórios', 'nivel': 'subcategoria'}], 'tempo_execucao': '0.0003s'}
+2025-11-03 09:33:04 | TestRecomendacao | INFO | Relatório de performance: {'total_categorias': 1, 'altura': 1, 'balanceada': True}
+2025-11-03 09:35:25 | TestRecomendacao | INFO | ===== INÍCIO DO TESTE DE RECOMENDAÇÃO =====
+2025-11-03 09:35:25 | TestRecomendacao | INFO | Árvore AVL criada (vazia).
+2025-11-03 09:35:25 | TestRecomendacao | INFO | Produto 'Fone JBL' adicionado à categoria 'Eletrônicos'.
+2025-11-03 09:35:25 | TestRecomendacao | INFO | Produto 'Notebook Dell' adicionado à categoria 'Eletrônicos'.
+2025-11-03 09:35:25 | TestRecomendacao | INFO | Produto 'Cabo HDMI' adicionado à subcategoria 'Acessórios'.
+2025-11-03 09:35:25 | TestRecomendacao | INFO | Subcategoria 'Acessórios' adicionada à categoria 'Eletrônicos'.
+2025-11-03 09:35:25 | TestRecomendacao | INFO | Categoria 'Eletrônicos' inserida na árvore AVL.
+2025-11-03 09:35:25 | app.services.recomendacao_service | INFO | Construindo índices de produtos...
+2025-11-03 09:35:25 | app.services.recomendacao_service | INFO | Índices construídos com sucesso: 3 produtos indexados.
+2025-11-03 09:35:25 | TestRecomendacao | INFO | Serviço de recomendação inicializado e índices construídos.
+2025-11-03 09:35:25 | TestRecomendacao | INFO | Executando sugestão de produtos para prefixo 'Fo'...
+2025-11-03 09:35:25 | app.services.recomendacao_service | INFO | Sugestão 'Fo': 1 resultados em 0.0000s.
+2025-11-03 09:35:25 | TestRecomendacao | INFO | Sugestões retornadas: [{'nome': 'Fone JBL', 'categoria': 'Eletrônicos'}]
+2025-11-03 09:35:25 | TestRecomendacao | INFO | Executando recomendação de produtos para categoria 'Eletrônicos'...
+2025-11-03 09:35:25 | app.services.recomendacao_service | INFO | Gerando recomendações para 'Eletrônicos'...
+2025-11-03 09:35:25 | app.services.recomendacao_service | INFO | Buscando categoria: Eletrônicos
+2025-11-03 09:35:25 | app.services.recomendacao_service | INFO | Categoria 'Eletrônicos' encontrada em 0.0001s
+2025-11-03 09:35:25 | app.services.recomendacao_service | INFO | Recomendação concluída: 3 produtos em 0.0002s.
+2025-11-03 09:35:25 | TestRecomendacao | INFO | Produtos recomendados: {'sucesso': True, 'categoria': 'Eletrônicos', 'total_produtos': 3, 'produtos': [{'produto': 'Fone JBL', 'categoria': 'Eletrônicos', 'nivel': 'principal'}, {'produto': 'Notebook Dell', 'categoria': 'Eletrônicos', 'nivel': 'principal'}, {'produto': 'Cabo HDMI', 'categoria': 'Eletrônicos > Acessórios', 'nivel': 'subcategoria'}], 'tempo_execucao': '0.0002s'}
+2025-11-03 09:35:25 | TestRecomendacao | INFO | Gerando relatório de performance da árvore AVL...
+2025-11-03 09:35:25 | TestRecomendacao | INFO | Relatório de performance: {'total_categorias': 1, 'altura': 1, 'balanceada': True}
+2025-11-03 09:35:25 | TestRecomendacao | INFO | ===== FIM DO TESTE DE RECOMENDAÇÃO =====
+2025-11-03 09:42:55 | app.services.recomendacao_service | INFO | Construindo índices de produtos...
+2025-11-03 09:42:55 | app.services.recomendacao_service | INFO | Índices construídos com sucesso: 3 produtos indexados.
+2025-11-03 09:43:14 | app.services.recomendacao_service | INFO | Construindo índices de produtos...
+2025-11-03 09:43:14 | app.services.recomendacao_service | INFO | Índices construídos com sucesso: 3 produtos indexados.
+2025-11-03 09:43:57 | app.services.recomendacao_service | INFO | Construindo índices de produtos...
+2025-11-03 09:43:57 | app.services.recomendacao_service | INFO | Índices construídos com sucesso: 3 produtos indexados.
+2025-11-03 09:43:57 | app.services.recomendacao_service | INFO | ===== Teste 1: Sugestões por prefixo =====
+2025-11-03 09:43:57 | app.services.recomendacao_service | INFO | Sugestão 'Fo': 1 resultados em 0.0000s.
+2025-11-03 09:43:57 | app.services.recomendacao_service | INFO | Sugestões para 'Fo': [{'nome': 'Fone JBL', 'categoria': 'Eletrônicos'}]
+2025-11-03 09:43:57 | app.services.recomendacao_service | INFO | Tempo de execução: 0.000267s
+2025-11-03 09:43:57 | app.services.recomendacao_service | INFO | Complexidade Big O: O(1) para buscar índice + O(k) para filtrar k produtos
+2025-11-03 09:43:57 | app.services.recomendacao_service | INFO | ===== Teste 2: Recomendação de produtos =====
+2025-11-03 09:43:57 | app.services.recomendacao_service | INFO | Gerando recomendações para 'Eletrônicos'...
+2025-11-03 09:43:57 | app.services.recomendacao_service | INFO | Buscando categoria: Eletrônicos
+2025-11-03 09:43:57 | app.services.recomendacao_service | INFO | Categoria 'Eletrônicos' encontrada em 0.0002s
+2025-11-03 09:43:57 | app.services.recomendacao_service | INFO | Recomendação concluída: 3 produtos em 0.0003s.
+2025-11-03 09:43:57 | app.services.recomendacao_service | INFO | Produtos recomendados para 'Eletrônicos': {'sucesso': True, 'categoria': 'Eletrônicos', 'total_produtos': 3, 'produtos': [{'produto': 'Fone JBL', 'categoria': 'Eletrônicos', 'nivel': 'principal'}, {'produto': 'Notebook Dell', 'categoria': 'Eletrônicos', 'nivel': 'principal'}, {'produto': 'Cabo HDMI', 'categoria': 'Eletrônicos > Acessórios', 'nivel': 'subcategoria'}], 'tempo_execucao': '0.0003s'}
+2025-11-03 09:43:57 | app.services.recomendacao_service | INFO | Tempo de execução: 0.000558s
+2025-11-03 09:43:57 | app.services.recomendacao_service | INFO | Complexidade Big O: O(log n) para buscar categoria + O(m) para coletar m produtos
+2025-11-03 09:43:57 | app.services.recomendacao_service | INFO | ===== Teste 3: Relatório de performance =====
+2025-11-03 09:43:57 | app.services.recomendacao_service | INFO | Total de categorias: 1
+2025-11-03 09:43:57 | app.services.recomendacao_service | INFO | Altura da árvore: 1
+2025-11-03 09:43:57 | app.services.recomendacao_service | INFO | Árvore balanceada: True
+2025-11-03 09:43:57 | app.services.recomendacao_service | INFO | Tempo de execução: 0.000007s
+2025-11-03 09:43:57 | app.services.recomendacao_service | INFO | Complexidade Big O estimada:
+2025-11-03 09:43:57 | app.services.recomendacao_service | INFO |  - Contar categorias: O(n)
+2025-11-03 09:43:57 | app.services.recomendacao_service | INFO |  - Calcular altura: O(n)
+2025-11-03 09:43:57 | app.services.recomendacao_service | INFO |  - Verificar balanceamento: O(n)
+2025-11-03 12:48:05 | app.services.recomendacao_service | INFO | Construindo índices de produtos...
+2025-11-03 12:48:05 | app.services.recomendacao_service | INFO | Índices construídos com sucesso: 3 produtos indexados.
+2025-11-03 12:48:05 | app.services.recomendacao_service | INFO | ===== Teste 1: Sugestões por prefixo =====
+2025-11-03 12:48:05 | app.services.recomendacao_service | INFO | Sugestão 'Fo': 1 resultados em 0.0000s.
+2025-11-03 12:48:05 | app.services.recomendacao_service | INFO | Sugestões para 'Fo': [{'nome': 'Fone JBL', 'categoria': 'Eletrônicos'}]
+2025-11-03 12:48:05 | app.services.recomendacao_service | INFO | Tempo de execução: 0.000611s
+2025-11-03 12:48:05 | app.services.recomendacao_service | INFO | Complexidade Big O: O(1) para buscar índice + O(k) para filtrar k produtos
+2025-11-03 12:48:05 | app.services.recomendacao_service | INFO | ===== Teste 2: Recomendação de produtos =====
+2025-11-03 12:48:05 | app.services.recomendacao_service | INFO | Gerando recomendações para 'Eletrônicos'...
+2025-11-03 12:48:05 | app.services.recomendacao_service | INFO | Buscando categoria: Eletrônicos
+2025-11-03 12:48:05 | app.services.recomendacao_service | INFO | Categoria 'Eletrônicos' encontrada em 0.0002s
+2025-11-03 12:48:05 | app.services.recomendacao_service | INFO | Recomendação concluída: 3 produtos em 0.0005s.
+2025-11-03 12:48:05 | app.services.recomendacao_service | INFO | Produtos recomendados para 'Eletrônicos': {'sucesso': True, 'categoria': 'Eletrônicos', 'total_produtos': 3, 'produtos': [{'produto': 'Fone JBL', 'categoria': 'Eletrônicos', 'nivel': 'principal'}, {'produto': 'Notebook Dell', 'categoria': 'Eletrônicos', 'nivel': 'principal'}, {'produto': 'Cabo HDMI', 'categoria': 'Eletrônicos > Acessórios', 'nivel': 'subcategoria'}], 'tempo_execucao': '0.0005s'}
+2025-11-03 12:48:05 | app.services.recomendacao_service | INFO | Tempo de execução: 0.000873s
+2025-11-03 12:48:05 | app.services.recomendacao_service | INFO | Complexidade Big O: O(log n) para buscar categoria + O(m) para coletar m produtos
+2025-11-03 12:48:05 | app.services.recomendacao_service | INFO | ===== Teste 3: Relatório de performance =====
+2025-11-03 12:48:05 | app.services.recomendacao_service | INFO | Total de categorias: 1
+2025-11-03 12:48:05 | app.services.recomendacao_service | INFO | Altura da árvore: 1
+2025-11-03 12:48:05 | app.services.recomendacao_service | INFO | Árvore balanceada: True
+2025-11-03 12:48:05 | app.services.recomendacao_service | INFO | Tempo de execução: 0.000022s
+2025-11-03 12:48:05 | app.services.recomendacao_service | INFO | Complexidade Big O estimada:
+2025-11-03 12:48:05 | app.services.recomendacao_service | INFO |  - Contar categorias: O(n)
+2025-11-03 12:48:05 | app.services.recomendacao_service | INFO |  - Calcular altura: O(n)
+2025-11-03 12:48:05 | app.services.recomendacao_service | INFO |  - Verificar balanceamento: O(n)
