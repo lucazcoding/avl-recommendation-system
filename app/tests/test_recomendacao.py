@@ -1,6 +1,5 @@
 import sys, os
 
-
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
 from app.utils.timer import Timer
@@ -15,6 +14,7 @@ arvore = ArvoreAVL()
 eletronicos = Categoria("Eletrônicos")
 eletronicos.adicionar_produto("Fone JBL")
 eletronicos.adicionar_produto("Notebook Dell")
+eletronicos.adicionar_produto("Fone multilaser")
 
 # Subcategoria
 acessorios = Categoria("Acessórios")
@@ -32,9 +32,9 @@ timer = Timer()
 # ===== Teste 1: Sugestão por prefixo =====
 logger.info("===== Teste 1: Sugestões por prefixo =====")
 timer.start()
-sugestoes = service.sugerir_por_prefixo("Fo")
+sugestoes = service.sugerir_por_prefixo("Ca")
 timer.stop()
-logger.info(f"Sugestões para 'Fo': {sugestoes}")
+logger.info(f"Sugestões para 'Ca': {sugestoes}")
 logger.info(f"Tempo de execução: {timer.get_elapsed_time():.6f}s")
 logger.info("Complexidade Big O: O(1) para buscar índice + O(k) para filtrar k produtos")
 
