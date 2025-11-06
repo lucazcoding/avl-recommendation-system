@@ -10,53 +10,35 @@ from app.utils.logger import Logger
 # Cria logger para o teste
 arvore = ArvoreAVL()
 
-# Categoria principal
-eletronicos = Categoria("Eletrônicos")
-eletronicos.adicionar_produto("Fone JBL")
-eletronicos.adicionar_produto("Notebook Dell")
-eletronicos.adicionar_produto("Fone multilaser")
-
-# Subcategoria
-acessorios = Categoria("Acessórios")
-acessorios.adicionar_produto("Cabo HDMI")
-eletronicos.adicionar_subcategoria(acessorios)
-
-# Insere categoria na árvore usando método público
-arvore.inserir_publico(eletronicos)
-
-# ===== Cria serviço =====
-service = RecomendacaoService(arvore)
-logger = service.logger  # usa o logger do serviço
-timer = Timer()
-
-# ===== Teste 1: Sugestão por prefixo =====
-logger.info("===== Teste 1: Sugestões por prefixo =====")
-timer.start()
-sugestoes = service.sugerir_por_prefixo("Ca")
-timer.stop()
-logger.info(f"Sugestões para 'Ca': {sugestoes}")
-logger.info(f"Tempo de execução: {timer.get_elapsed_time():.6f}s")
-logger.info("Complexidade Big O: O(1) para buscar índice + O(k) para filtrar k produtos")
-
-# ===== Teste 2: Recomendação de produtos =====
-logger.info("===== Teste 2: Recomendação de produtos =====")
-timer.start()
-recomendados = service.recomendar_produtos("Eletrônicos")
-timer.stop()
-logger.info(f"Produtos recomendados para 'Eletrônicos': {recomendados}")
-logger.info(f"Tempo de execução: {timer.get_elapsed_time():.6f}s")
-logger.info("Complexidade Big O: O(log n) para buscar categoria + O(m) para coletar m produtos")
-
-# ===== Teste 3: Relatório de performance =====
-logger.info("===== Teste 3: Relatório de performance =====")
-timer.start()
-relatorio = service.gerar_relatorio_performance()
-timer.stop()
-logger.info(f"Total de categorias: {relatorio['total_categorias']}")
-logger.info(f"Altura da árvore: {relatorio['altura']}")
-logger.info(f"Árvore balanceada: {relatorio['balanceada']}")
-logger.info(f"Tempo de execução: {timer.get_elapsed_time():.6f}s")
-logger.info("Complexidade Big O estimada:")
-logger.info(" - Contar categorias: O(n)")
-logger.info(" - Calcular altura: O(n)")
-logger.info(" - Verificar balanceamento: O(n)")
+#Cria categorias para o logger
+cat1 = Categoria("Pokébolas", ["Poké ball, Great Ball, Ultra ball"])
+cat2 = Categoria("Medicamentos", ["Poção", "Super-poção", "Hiper-poção", "Poção Máxima", "Restauração completa"])
+cat3 = Categoria("Itens de evolução", ["Bloco de turfa", "Augurita preta", "Disco Duvidoso", "Sachê", "DenteDoFundoDoMar", "Revestimento Metálico", "Pedra do Rei"])
+cat4 = Categoria("Mega-Pedras", ["Venusaurite", "Blastoisenite", "Charizardite X", "Charizardite Y", "Meganiumite", "Feraligite", "Emboarite", "Chesnaughtite", "Delphoxite", "Greninjite"])
+#Cria subcategorias e as associa as categorias principais
+sub1 = Categoria("Pokébolas especiais", ["Safari ball", "Dream Ball", "Sport Ball", "Beast Ball"])
+sub2 = Categoria("Pokébolas de Johto", ["Friend Ball", "Love Ball", "Fast Ball", "Moon Ball", "Heavy ball", "Lure Ball", "Level Ball"])
+cat1.adicionar_subcategoria(sub1)
+cat1.adicionar_subcategoria(sub2)
+sub1 = Categoria("Cura de status", ["Antídoto", "Despertar", "Cura de Paralisia", "Descongelante", "Antiqueimadura", "Cura total", "Reviver"])
+sub2 = Categoria("Proteínas", ["Carbos", "Vitamina", "Zinco", "Ferro", "Cálcio", "HP Up", "PP Up", "PP Max"])
+cat2.adicionar_subcategoria(sub1)
+cat2.adicionar_subcategoria(sub2)
+sub1 = Categoria("Pedras evolutivas", ["Pedra do Fogo", "Pedra do Trovão", "Pedra d'Água", "Pedra da Folha", "Pedra da Lua", "Pedra do Sol", "Pedra do Crepúsculo", "Pedra Brilhante", "Pedra da alvorada", "Pedra do Gelo"])
+cat3.adicionar_subcategoria(sub1)
+#Adciona as categorias ao logger
+arvore.inserir_publico(cat1)
+arvore.inserir_publico(cat2)
+arvore.inserir_publico(cat3)
+arvore.inserir_publico(cat4)
+#Inicializa o serviço de recomendação
+servico_recomendacao = RecomendacaoService(arvore)
+#Teste de autocompleção
+busca = input("Digite para buscar algo: ")
+lista_autocomplecao = servico_recomendacao.sugerir_por_prefixo(busca)
+print(f"Possíveis resultados para {busca}:")
+for i in lista_autocomplecao:
+    print(i)
+#Teste de recomendação
+busca = input("Digite o nome uma categoria ou subcategoria para ver recomendações de produtos:")
+print(servico_recomendacao.recomendar_produtos(busca))
