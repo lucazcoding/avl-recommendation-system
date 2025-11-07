@@ -4,7 +4,7 @@ import sys, os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
 from typing import Optional, List, Tuple
-from categoria import Categoria
+from app.core.categoria import Categoria
 
 
 class No:
