@@ -9,6 +9,13 @@
 
 ---
 
+## 📋 Visão Geral
+
+O **SRHP (Sistema de Recomendação Hierárquica de Produtos)** é um projeto desenvolvido para otimizar a busca e a recomendação de produtos em um marketplace com milhares de itens.  
+O sistema utiliza **árvores AVL** para organizar as categorias e subcategorias de forma hierárquica e balanceada, garantindo **buscas rápidas**, **inserções eficientes** e **reorganização automática** conforme novos dados são adicionados.
+
+---
+
 ## 📂 Estrutura de Diretórios
 
 ```
