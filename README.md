@@ -55,23 +55,29 @@ AVLSRHP/
 ---
 
 ## 🚀 Como Executar o Projeto
-
+ ````
 ### Instalação
 git clone https://github.com/lucazcoding/avl-recommendation-system
-cd AVLSRHP
+cd avl-recommendation-system
 
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate   # Windows
 
 pip install -r requirements.txt
+````
 
 ### Executar API
+```
 python -m app.main
 # Acesse: http://localhost:5000
+```
 
 ### Executar CLI
+```
 python -m app.cli.interface_cli
-
+```
 ### Executar Testes
+```
 pytest app/tests/
+```
