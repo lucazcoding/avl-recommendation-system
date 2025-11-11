@@ -11,6 +11,7 @@
 
 ## 📂 Estrutura de Diretórios
 
+```
 AVLSRHP/
 │
 ├── app/
@@ -50,7 +51,7 @@ AVLSRHP/
 │
 ├── requirements.txt
 └── README.md
-
+````
 ---
 
 ## 🚀 Como Executar o Projeto
